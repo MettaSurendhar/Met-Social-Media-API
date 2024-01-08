@@ -1,2 +1,1 @@
-# ASP-Server
-Backend repo of the Alumni Student Platform mobile application
+# MET_SOCIAL_HANDLER
