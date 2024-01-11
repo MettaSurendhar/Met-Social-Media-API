@@ -1,5 +1,4 @@
 # MET_SOCIAL_HANDLER
-## Social Media API using Node.js, Express.js, Prisma, PostgreSQL
 
 ### This API is built using Node.js, Express.js, Prisma, and PostgreSQL.
 
@@ -18,11 +17,7 @@ Our project is organized into several key directories:
 
 I hope this gives you a clear understanding of our project's structure and the technologies used. If you have any questions, feel free to ask.
 
-# Social Media REST API
-
-This project is a Social Media REST API built with Node.js, Prisma, and PostgreSQL. It provides a robust and scalable solution for managing social media data.
-
-## Getting Started
+## Getting Started with Installation and Setup
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -34,15 +29,19 @@ Ensure you have Node.js installed on your machine. If not, you can download it f
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-repo/social-media-api.git
+https://github.com/MettaSurendhar/Met-Social-Media-API.git
 ```
 2. Navigate into the project directory
 ```bash
-cd social-media-api
+cd Met-Social-Media-API
 ```
 3. Install the project dependencies
 ```bash
 npm install
+```
+or else try 
+```bash
+npm install --force
 ```
 The `npm install` command is used to install all the project dependencies listed in the `package.json` file. It downloads the packages and their respective versions and saves them in the `node_modules` directory.
 
@@ -81,6 +80,22 @@ The `npm start` command is a predefined script in the `package.json` file that s
 ## API Endpoints
 
 The API provides several endpoints for managing social media data. For detailed information about the endpoints, refer to the API documentation.
+All the endpoints are available in our Postman public workspace. Here is the <a href="https://www.postman.com/sigma-blue/workspace/sigma-blue-workspace/collection/26578567-8e8935ec-40d0-4c56-b1d8-b35e4094a037?action=share&creator=26578567"> postman link </a>
+
+## Contribution
+
+We encourage everyone to contribute to our project. Here's how you can do it:
+
+- **Fork the repository on GitHub**
+- **Clone the forked repository**
+- **Create a new branch**
+- **Make your changes**
+- **Commit and push your changes**
+- **Create a Pull Request**
+- **Code Review**
+- **Merge**
+
+After the code review, your changes will be merged into the main codebase.We appreciate your contributions and look forward to seeing your work!
 
 ## Contributing
 
@@ -90,7 +105,3 @@ Contributions are welcome. Please read the contributing guide for more informati
 
 This project is licensed under the MIT License.
 
-Best regards,
-Metta Surendhar
-
-Written with Magical
