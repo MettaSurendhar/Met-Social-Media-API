@@ -8,7 +8,7 @@ exports.registrationMailer = (toMailId, userName) => {
 	try {
 		const message = {
 			to: toMailId,
-			subject: 'Registration Successful - Alumni Student Platform reg',
+			subject: 'Registration Successful',
 			html: fs
 				.readFileSync(__dirname + '/mailInfo/registration.html')
 				.toString()
@@ -39,7 +39,7 @@ exports.resetPasswordMailer = (toMailId, userName, otp) => {
 	try {
 		const message = {
 			to: toMailId,
-			subject: 'OTP for Resetting Password - Alumni Student Platform reg',
+			subject: 'OTP for Resetting Password',
 			html: fs
 				.readFileSync(__dirname + '/mailInfo/resetPassword.html')
 				.toString()
